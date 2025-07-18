@@ -1,0 +1,24 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S "/Users/acciafranci/Documents/AI UNIFI/PARALLEL PROGRAMMING/BoidsProject" -B "/Users/acciafranci/Documents/AI UNIFI/PARALLEL PROGRAMMING/BoidsProject/cmake-build-debug"
+CMake Error at /Users/acciafranci/Documents/AI UNIFI/PARALLEL PROGRAMMING/SFML-3.0.0/lib/cmake/SFML/SFMLGraphicsSharedTargets.cmake:85 (message):
+  The imported target "SFML::Graphics" references the file
+
+     "/Users/acciafranci/Documents/AI UNIFI/PARALLEL PROGRAMMING/SFML-3.0.0/lib/libsfml-graphics.3.0.0.dylib"
+
+  but this file does not exist.  Possible reasons include:
+
+  * The file was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and contained
+
+     "/Users/acciafranci/Documents/AI UNIFI/PARALLEL PROGRAMMING/SFML-3.0.0/lib/cmake/SFML/SFMLGraphicsSharedTargets.cmake"
+
+  but not all the files it references.
+
+Call Stack (most recent call first):
+  /Users/acciafranci/Documents/AI UNIFI/PARALLEL PROGRAMMING/SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake:159 (include)
+  CMakeLists.txt:10 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
